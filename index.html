@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clio — Assistente do Projeto Avaliação Ativa</title>
+  <meta name="description" content="Clio é a assistente do Projeto Avaliação Ativa. Use este acesso para tirar dúvidas sobre fases, materiais, formulários, avaliações e provas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Clio — Assistente do Projeto Avaliação Ativa" />
+  <meta property="og:description" content="Tire dúvidas sobre fases, materiais, formulários, avaliações e provas do projeto." />
+  <meta property="og:image" content="https://example.com/clio.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Clio — Assistente do Projeto Avaliação Ativa" />
+  <meta name="twitter:description" content="Tire dúvidas sobre fases, materiais, formulários, avaliações e provas do projeto." />
+  <meta name="twitter:image" content="https://example.com/clio.jpg" />
+  <style>
+    :root { --bg:#f7f2e8; --surface:#fffaf0; --text:#2f2418; --muted:#6f6252; --primary:#1f7a62; --primary-hover:#18614d; --ring:rgba(31,122,98,.18); --border:#e7dcc8; --shadow:0 18px 45px rgba(73,55,27,.12); --radius:22px; --secondary:#f4ecdb; }
+    *{box-sizing:border-box} body{margin:0;min-height:100vh;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top,#fff8ea 0%,var(--bg) 48%,#efe4d1 100%);color:var(--text);display:grid;place-items:center;padding:24px}
+    .card{width:min(980px,100%);background:rgba(255,250,240,.94);border:1px solid var(--border);border-radius:calc(var(--radius) + 8px);box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:360px 1fr}
+    .art{background:linear-gradient(160deg,#f1e4c8 0%,#e7d5b3 100%);padding:28px;display:flex;align-items:center;justify-content:center}
+    .art .placeholder{width:100%;max-width:290px;aspect-ratio:1/1;border-radius:999px;border:8px solid rgba(255,255,255,.72);box-shadow:0 10px 30px rgba(90,63,21,.18);background:radial-gradient(circle at 35% 30%,#fff6e2 0%,#ecd7b0 42%,#cfb17e 100%);display:grid;place-items:center;text-align:center;padding:26px;color:#5e4725;font-weight:700;line-height:1.3}
+    .content{padding:42px;display:flex;flex-direction:column;justify-content:center;gap:18px}
+    .eyebrow{display:inline-flex;width:fit-content;padding:8px 14px;border-radius:999px;background:#efe7d8;color:#6e5b40;font-size:14px;font-weight:700;letter-spacing:.02em}
+    h1{margin:0;font-size:clamp(2rem,3vw,3rem);line-height:1.08} p{margin:0;font-size:1.05rem;line-height:1.7;color:var(--muted);max-width:54ch}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;padding-top:8px}.btn{appearance:none;border:0;border-radius:999px;padding:14px 22px;font-size:1rem;font-weight:700;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;display:inline-flex;align-items:center;justify-content:center}.btn-primary{background:var(--primary);color:white;box-shadow:0 10px 24px var(--ring)}.btn-primary:hover{background:var(--primary-hover);transform:translateY(-1px)}.btn-secondary{background:var(--secondary);color:var(--text);border:1px solid var(--border)}.btn-secondary:hover{transform:translateY(-1px)}.btn-disabled{background:#efe8da;color:#8a7b66;border:1px dashed #c9b99b;cursor:not-allowed;pointer-events:none}
+    .note{background:#fbf6eb;border:1px solid var(--border);border-radius:16px;padding:16px 18px;color:var(--muted)}
+    .meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding-top:4px}.meta div{background:#fbf6eb;border:1px solid var(--border);border-radius:16px;padding:14px}.meta strong{display:block;margin-bottom:6px;font-size:.9rem}.meta span{color:var(--muted);font-size:.95rem;line-height:1.5}
+    code{background:#f4ecdb;padding:2px 6px;border-radius:8px}
+    @media (max-width:820px){.card{grid-template-columns:1fr}.content{padding:30px 24px 28px}.art{padding:26px 26px 8px}.meta{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <section class="art">
+      <div class="placeholder" aria-label="Espaço reservado para a imagem da Clio">
+        CLIO<br>adicione aqui<br>sua imagem final
+      </div>
+    </section>
+    <section class="content">
+      <span class="eyebrow">Projeto Avaliação Ativa</span>
+      <h1>Clio — a assistente do seu percurso em História</h1>
+      <p>Use a Clio para tirar dúvidas sobre as fases do projeto, materiais pedagógicos, formulários, critérios de avaliação, criação de provas e orientações gerais de estudo.</p>
+      <p>A versão principal está no NotebookLM. A versão do Gemini foi prevista como caminho alternativo, para ser ativada depois que você terminar sua configuração.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://notebooklm.google.com/notebook/c03bce1b-c507-404f-b27a-ea89cf7ced04" target="_blank" rel="noopener noreferrer">Acessar Clio no NotebookLM</a>
+        <span class="btn btn-disabled">Clio no Gemini — em breve</span>
+      </div>
+      <div class="note">
+        Versão principal: baseada nas fontes oficiais do projeto no NotebookLM. Versão alternativa: Gemini, a ser liberada depois como plano B.
+      </div>
+      <div class="meta">
+        <div><strong>Ajuda com o projeto</strong><span>Fases, links, tutoriais, formulários e organização das atividades.</span></div>
+        <div><strong>Apoio ao estudo</strong><span>Consulta de materiais, provas, critérios e orientações práticas.</span></div>
+        <div><strong>Acesso simples</strong><span>Entre pelo botão e converse com a Clio usando sua conta Google.</span></div>
+      </div>
+      <p><strong>Importante:</strong> antes de publicar, substitua o bloco visual da esquerda e os campos <code>og:image</code> e <code>twitter:image</code> pela URL pública real da imagem da Clio.</p>
+    </section>
+  </main>
+</body>
+</html>
+EOF && ls -l output/clio-assistente-avaliacao-ativa.html | cat && head -n 20 output/clio-assistente-avaliacao-ativa.html | cat
