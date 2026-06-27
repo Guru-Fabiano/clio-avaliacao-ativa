@@ -29,7 +29,8 @@
     .btn{appearance:none;border:0;border-radius:999px;padding:14px 22px;font-size:1rem;font-weight:700;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;display:inline-flex;align-items:center;justify-content:center}
     .btn-primary{background:var(--primary);color:white;box-shadow:0 10px 24px var(--ring)}
     .btn-primary:hover{background:var(--primary-hover);transform:translateY(-1px)}
-    .btn-disabled{background:#efe8da;color:#8a7b66;border:1px dashed #c9b99b;cursor:not-allowed;pointer-events:none}
+    .btn-secondary{background:var(--secondary);color:var(--text);border:1px solid var(--border)}
+    .btn-secondary:hover{background:#eadfc9;transform:translateY(-1px)}
     .note{background:#fbf6eb;border:1px solid var(--border);border-radius:16px;padding:16px 18px;color:var(--muted)}
     .meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding-top:4px}
     .meta div{background:#fbf6eb;border:1px solid var(--border);border-radius:16px;padding:14px}
@@ -53,15 +54,15 @@
       <span class="eyebrow">Projeto Avaliação Ativa</span>
       <h1>Clio — a assistente do seu percurso em História</h1>
       <p>Use a Clio para tirar dúvidas sobre as fases do projeto, materiais pedagógicos, formulários, critérios de avaliação, criação de provas e orientações gerais de estudo.</p>
-      <p>A versão principal está no NotebookLM. A versão do Gemini foi prevista como caminho alternativo, para ser ativada depois que você terminar sua configuração.</p>
+      <p>A versão principal está no NotebookLM, e a versão alternativa no Gemini já está disponível para acesso rápido em um segundo caminho de consulta.</p>
 
       <div class="actions">
         <a class="btn btn-primary" href="https://notebooklm.google.com/notebook/c03bce1b-c507-404f-b27a-ea89cf7ced04" target="_blank" rel="noopener noreferrer">Acessar Clio no NotebookLM</a>
-        <span class="btn btn-disabled">Clio no Gemini — em breve</span>
+        <a class="btn btn-secondary" href="https://gemini.google.com/gem/1S2Tj5NUSlok_dy3p2MTfaIb9UJWBzRzW?usp=sharing" target="_blank" rel="noopener noreferrer">Acessar Clio no Gemini</a>
       </div>
 
       <div class="note">
-        Versão principal: baseada nas fontes oficiais do projeto no NotebookLM. Versão alternativa: Gemini, a ser liberada depois como plano B.
+        Versão principal: baseada nas fontes oficiais do projeto no NotebookLM. Versão alternativa: Gemini, disponível como caminho complementar de apoio e consulta.
       </div>
 
       <div class="meta">
